@@ -1,0 +1,15 @@
+schemaVersion = 2
+format = "simoder.authoring"
+
+[metadata]
+id = "simoder.luau-example"
+name = "Luau Example"
+author = "Simoder"
+version = "1.0.0"
+description = "Isolated Luau lifecycle and local module example"
+
+[scripts]
+language = "luau"
+entry = "scripts/main.luau"
+memoryMiB = 8
+budgetMs = 2

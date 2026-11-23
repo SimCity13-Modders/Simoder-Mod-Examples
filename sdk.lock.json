@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/SimCity13-Modders/Simoder-SDK.git",
+  "revision": "398a5ac648d36d73e08090c867469bb826479ebe",
+  "canonical_path": "TypeScript/simoder.d.ts",
+  "vendored_path": "examples/TypeScriptExample/scripts/simoder.d.ts",
+  "sha256": "bb8af16a3896ac2af00062022116fd50203e7cc38e15d8d404bc39c58113502b",
+  "schema_version": 2,
+  "package_version": "0.2.0",
+  "manifest_sha256": "8ab7096f9dbe928e3a245df59dbb02dda302b67dc9225e23c7ffdec4c8d28bdc",
+  "profile": {
+    "name": "base-luau-alpha-v1",
+    "declaration_path": "Luau/base.d.luau",
+    "declaration_sha256": "5d4c438800f03ba2a5338a242634c0120c8fae622a4b5f721477d45b5c467dcf",
+    "guide_path": "Luau/BASE_API.md",
+    "guide_sha256": "b7ec4b5143022600dc5c6171ef53eb33940702b15ce787b4dd2080e986761002"
+  }
+}

@@ -1,0 +1,5 @@
+# Preserve the pinned SDK compatibility artifact bytes.
+/examples/TypeScriptExample/scripts/simoder.d.ts -text
+/sdk.lock.json -text
+/examples/BaseApiExample/scripts/init.luau -text
+/tests/fixtures/base/task-profile.luau -text

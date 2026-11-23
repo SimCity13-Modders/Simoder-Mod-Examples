@@ -1,0 +1,15 @@
+schemaVersion = 2
+format = "simoder.authoring"
+
+[metadata]
+id = "simoder.typescript-example"
+name = "TypeScript Example"
+author = "Simoder"
+version = "1.0.0"
+description = "TypeScriptToLua bundle executed by the Simoder Luau VM"
+
+[scripts]
+language = "typescript"
+entry = "scripts/main.ts"
+memoryMiB = 8
+budgetMs = 2

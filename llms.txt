@@ -1,0 +1,9 @@
+# Simoder Mod Examples
+
+- [Repository guide](README.md): provenance, current compatibility, build/test/install and ownership.
+- [Agent rules](AGENTS.md): preservation, evidence and contribution boundaries.
+- [Luau example](examples/LuauExample/mod.toml): isolated Luau callbacks and local module import.
+- [PROP API example](examples/PropApiExample/mod.toml): existing owner-scoped scalar override declarations.
+- [Declarative example](examples/TOMLExample/mod.toml): current TOML patch format.
+- [Legacy TypeScript example](examples/TypeScriptExample/mod.toml): current external TypeScriptToLua workflow, not future JavaScript support.
+- [Validation](tests/test_examples.py): semantic source and package-layout checks, no game execution.

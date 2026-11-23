@@ -1,0 +1,5 @@
+/build/
+/.analysis/
+/examples/cache/
+**/__pycache__/
+*.py[cod]

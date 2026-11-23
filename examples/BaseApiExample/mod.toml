@@ -1,0 +1,15 @@
+schemaVersion = 2
+format = "simoder.authoring"
+
+[metadata]
+id = "simoder.base-api-example"
+name = "Base API Example"
+author = "Simoder"
+version = "0.1.0-alpha"
+description = "Read-only Base lifecycle snapshots and deferred subscription"
+
+[scripts]
+language = "luau"
+entry = "scripts/init.luau"
+memoryMiB = 8
+budgetMs = 2

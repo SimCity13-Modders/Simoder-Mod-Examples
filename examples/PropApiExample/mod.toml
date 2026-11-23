@@ -1,0 +1,28 @@
+schemaVersion = 2
+format = "simoder.authoring"
+
+[metadata]
+id = "simoder.prop-api-example"
+name = "PROP API Example"
+author = "Simoder"
+version = "1.0.0"
+description = "Owner-scoped scalar float override using verified catalog aliases"
+
+[scripts]
+language = "luau"
+entry = "scripts/main.luau"
+memoryMiB = 8
+budgetMs = 2
+
+[[symbols.resources]]
+name = "sanitizer"
+type = "0x00B1B104"
+group = "0x61EFC000"
+instance = "0x719436BD"
+source = "Simoder verified Sanitizer runtime fixture"
+
+[[symbols.properties]]
+name = "operatingCost"
+id = "0x09AE19D7"
+type = "float"
+source = "Simoder alias backed by verified 300-to-345 cost change"

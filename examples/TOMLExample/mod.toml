@@ -1,0 +1,35 @@
+schemaVersion = 2
+format = "simoder.authoring"
+kind = "gameplay"
+
+[metadata]
+id = "majami.better-sanitizer"
+name = "Better Sanitizer Example"
+version = "1.0.0"
+author = "Majami"
+description = "Verified scalar PROP override using readable aliases"
+
+[[symbols.resources]]
+name = "sanitizer"
+type = 0x00B1B104
+group = 0x61EFC000
+instance = 0x719436BD
+source = "Verified SimCity Sanitizer runtime fixture"
+
+[[symbols.properties]]
+name = "operatingCost"
+id = 0x09AE19D7
+type = "float"
+source = "Verified operating-cost effect; original EA property name unknown"
+description = "Local alias for the observed operating cost property"
+origin = "local_alias"
+
+[[patches]]
+[patches.target]
+name = "sanitizer"
+
+[[patches.properties]]
+name = "operatingCost"
+type = "float"
+operation = "set"
+value = 345
